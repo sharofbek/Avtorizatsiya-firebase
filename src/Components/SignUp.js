@@ -23,7 +23,7 @@ const SignUp = () => {
                 }))
                 navigate('/')
             })
-            .catch(alert('Yangi akkaunt yarating'))
+            .catch(err => alert('Yangi akkaunt yarating'))
 
     }
 

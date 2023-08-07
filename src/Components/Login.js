@@ -25,7 +25,7 @@ const Login = () => {
                 navigate('/')
 
             })
-            .catch(alert('Avval akkaunt yarating'))
+            .catch(err => alert('Avval akkaunt yarating'))
     }
 
 
